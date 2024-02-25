@@ -65,6 +65,11 @@ To compute the inverse of a one-parameter [Box-Cox transformation][box-cox-trans
 To use in Observable,
 
 ```javascript
+boxcox1pinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-boxcox1pinv/tags). For example,
+
+```javascript
 boxcox1pinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@v0.2.1-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var boxcox1pinv = require( 'path/to/vendor/umd/math-base-special-boxcox1pinv/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -137,7 +142,7 @@ v = boxcox1pinv( NaN, 3.1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcox1pinv@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
