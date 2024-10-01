@@ -42,7 +42,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 -   Rejoan Sardar
 
 </section>
